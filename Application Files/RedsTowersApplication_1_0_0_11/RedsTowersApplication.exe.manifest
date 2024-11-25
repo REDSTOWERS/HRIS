@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RedsTowersApplication.exe" version="1.0.0.11" publicKeyToken="f44e0182cf41fec5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="reds.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RedsTowersApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RedsTowersApplication.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="457728">
+      <assemblyIdentity name="MySql.Data" version="6.9.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jP8v64oeMPoLcpPyDq6pEOepqe0+h3aAHY75VvgIJ9E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RedsTowersApplication.exe" size="16587264">
+      <assemblyIdentity name="RedsTowersApplication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WKywPw/a35sB0Yp6ytiSscK336DvMOehirxbUtkh0c8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MicrosoftTeams-image (13).ico" size="187184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>84dUzaQG4LQCqSGYlKA+odxi9qyzCT2FquUL8nn4aLk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="reds.ico" size="221822">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cau0Kj0Poc/yusXASp426OGxfVqOcq1Yi6AJJG1Rz2Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RedsTowersApplication.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DB75T8E\admin" issuerKeyHash="f8883a5661c6e1d481da4760f7d14e8eb5b64e4b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wQG4W74kQgaVrqCKcedv5ZiJa2sGr6iQ5UBf7cPUIe4=</DigestValue></Reference></SignedInfo><SignatureValue>JUvesnIA29Ck5OfIdvmjzQUrcfMX0cQsobhSk2edI6lm92o9P7iSBu3VPRGdQM4vs55V+/LS7V3PV4DzoAuQ24+7zA7nAPcumOrg9GclhN5zxF0sV+hXw3CgtJqw+fj+MwOJq5snvLVq9LZSJ31DS97igWrfcV6wkIccLINAFI8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wVQupSl+ihgffL6e4QpRWlH9Xzcg/giWIFeIGGF+g+AuPngXCSw89H/ZZ0Sjh7e1JE6dVHWn028ZMn04Gm1DalybUxVolxOt1j3zKLKgIi3fbHg4t6KeQb08S4P4oLFEg7kbD+zvr0e6OM1EE5QZuJippZhdlpySbfvVXY0VTL0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ee21d4c3ed5f40e590a8af066b6b8998e56fe7718aa0ae95064224be5bb801c1" Description="" Url=""><as:assemblyIdentity name="RedsTowersApplication.exe" version="1.0.0.11" publicKeyToken="f44e0182cf41fec5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DB75T8E\admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+wTqS99GCBnwLZENIkfN8bPt+2LFHMgqSrB1geGDO/E=</DigestValue></Reference></SignedInfo><SignatureValue>Ys2FHFcWKUPRfXb6we7g5m1GrHieZEMjH3SlQAKfgg100vK3nhq0/H1JJ12Gk3ve1JDtVDdj/HeMLuUEemvqnoyvAeERCVSZQFekkE8GvOJpQ9YmQrnXDM+6UzJU7kL7TS+o4bWSNWdVpHgd9EW62LYqn5uJQoYtRl7bWnDjnUg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wVQupSl+ihgffL6e4QpRWlH9Xzcg/giWIFeIGGF+g+AuPngXCSw89H/ZZ0Sjh7e1JE6dVHWn028ZMn04Gm1DalybUxVolxOt1j3zKLKgIi3fbHg4t6KeQb08S4P4oLFEg7kbD+zvr0e6OM1EE5QZuJippZhdlpySbfvVXY0VTL0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQGhCyMQFLc4BLzVxDhO62lDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAQgA3ADUAVAA4AEUAXABhAGQAbQBpAG4wHhcNMjQwNTI5MDg1NDQyWhcNMjUwNTI5MTQ1NDQyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQAQgA3ADUAVAA4AEUAXABhAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFULqUpfooYH3y+nuEKUVpR/V83IP4IliBXiBhhfoPgLj54FwksPPR/2WdEo4e3tSROnVR1p9NvGTJ9OBptQ2pcm1MVaJcTrdY98yiyoCIt32x4OLeinkG9PEuD+KCxRIO5Gw/s769HujjNRBOUGbiYqaWYXZackm371V2NFUy9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAA7U4Azr4qulCgKe7QjFVfnfhpreX8+3zrrN0Brzpw7BvcyPja0Hwt1+C0K636vL4Iuv7J/ruz/rwqzSw6QH7gNt3fE4N7HPgKIpmm8IXHie45Ry0IYxHsjE7cWnHQxH6XxtVDOWmPwwf/cQ3UqHaIIRGBZx5h8+Tv2I7FrhiWY0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
